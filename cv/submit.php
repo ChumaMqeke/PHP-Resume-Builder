@@ -18,6 +18,7 @@
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $profession = $_POST['profession'];
+    $address = $_POST['address'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $about_me = $_POST['about_me'];
@@ -161,6 +162,9 @@
       </div>
       <div class="call"><i class="fas fa-phone-alt"></i>
         <div class="text"><?php echo $phone;?></div>
+      </div>
+      <div class="email"><i class="fas fa-envelope"></i>
+        <div class="text"><?php echo $address;?></div>
       </div>
       <div class="email"><i class="fas fa-envelope"></i>
         <div class="text"><?php echo $email;?></div>

@@ -38,12 +38,9 @@
                     <input type="text" class="form-control" name="profession" required>
                 </div>
 
-                <!-- <div class="mb-3">
-                    <label class="form-label">Phone number</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="0300-1234567" pattern="[0-9]{4}-[0-9]{7}" required>
-                </div> -->
-                <div class="mb-3">
-
+                <label class="form-label">Address</label>
+                    <input type="address" class="form-control" id="address" name="text" required>
+                    
                     <label class="form-label">Email address</label>
                     <input type="email" class="form-control" name="email" required>
                     <div class="form-text text-light">We'll never share your email with anyone else.</div>
